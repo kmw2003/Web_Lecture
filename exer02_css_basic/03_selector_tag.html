@@ -6,19 +6,42 @@
     <title>Document</title>
 
     <style>
-        h1 {
-            color: blue;
+        body {
+            background-image: url('backgroundFront.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
         }
 
-        p {
+        h1 {
+            color: blue;
+            text-decoration: underline;
+            letter-spacing: 5px;
+        }
+
+        #p1 {
             color: red;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            text-align: left;
+            line-height: 1.8;
+            letter-spacing: 1px;
+            word-spacing: 5px;
+        }
+
+        #p2 {
+            color: rgb(217, 8, 236);
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            font-style: italic;
         }
     </style>
 </head>
+
 <body>
     <h1>제목 글자</h1>
 
-    <p>
+    <p id="p1">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy
         text ever since 1966, when designers at Letraset and James Mosley,
@@ -27,7 +50,7 @@
         Letraset's Body Type sheets.
     </p>
 
-    <p>
+    <p id="p2">
         It is a long established fact that a reader will be distracted by
         the readable content of a page when looking at its layout.
     </p>
