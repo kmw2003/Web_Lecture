@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <!-- 상단 제목 -->
+        <header>
+            <h1>나의 프로필</h1>
+            <p>Web Programming Practice</p>
+        </header>
+
+        <main>
+            <!-- 프로필 -->
+            <section id="profile">
+                <img src="profile.png" alt="프로필 사진">
+
+                <div class="profile-info">
+                    <h2>김민우</h2>
+                    <p>전공: 컴퓨터소프트웨어전공</p>
+                    <p>관심분야: Web / C++ / Python</p>
+                </div>
+            </section>
+
+            <!-- 관심 기술 -->
+            <section class="content-box">
+                <h2>관심 기술</h2>
+
+                <div class="skills">
+                    <span class="html">HTML</span>
+                    <span class="Cpp">C++</span>
+                    <span class="javascript">JavaScript</span>
+                    <span class="Python">Python</span>
+                </div>
+            </section>
+
+            <!-- 자기소개 -->
+            <section class="content-box">
+                <h2>자기소개</h2>
+
+                <p>
+                    현재 웹 프로그래밍을 배우며 HTML과 CSS를 활용해
+                    웹페이지의 구조를 구성하고 디자인하는 방법을 익히고 있습니다.
+                    여러 가지 CSS 속성과 선택자를 적용하면서
+                    원하는 형태로 웹페이지를 꾸미는 방법도 학습하고 있습니다.
+                </p>
+
+                <p>
+                     앞으로는 JavaScript와 React를 추가로 공부하여
+                    사용자가 직접 상호작용할 수 있는 웹페이지를 구현하고,
+                    다양한 웹 서비스를 개발하는 것을 목표로 하고 있습니다.
+                </p>
+            </section>
+
+            <!-- 문의하기 -->
+            <section class="content-box">
+                <h2>문의하기</h2>
+
+                <form>
+                    <div class="form-group">
+                        <label for="name">이름</label>
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="이름을 입력하세요"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">이메일</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="이메일을 입력하세요"
+                        >
+                    </div>
+
+                    <button type="submit">문의하기</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- 하단 -->
+        <footer>
+            <p>2026 Web Programming Practice</p>
+        </footer>
+
+    </div>
+</body>
+</html>
