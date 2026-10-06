@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+/* 전체 페이지 영역 */
+.wrap {
+  width: 900px;
+  margin: 50px auto;
+}
+
+
+/* =========================
+   헤더
+========================= */
+
+.header {
+  overflow: hidden;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+
+/* DU Web */
+.header h2 {
+  float: left;
+  margin: 0;
+}
+
+
+/* 메뉴 전체 */
+.menu {
+  float: right;
+}
+
+
+/* HOME, NEWS, SHOP, LOGIN */
+.menu-item {
+  float: left;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+
+/* =========================
+   본문
+========================= */
+
+.container {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+
+/* 왼쪽 뉴스 영역 */
+.main {
+  float: left;
+
+  width: 65%;
+
+  padding: 20px;
+
+  border: 1px solid black;
+
+  box-sizing: border-box;
+}
+
+
+/* 오른쪽 인기 글 영역 */
+.sidebar {
+  float: right;
+
+  width: 32%;
+
+  padding: 20px;
+
+  border: 1px solid black;
+
+  box-sizing: border-box;
+}
+
+
+/* 제목 위쪽 여백 제거 */
+.main h2,
+.sidebar h3 {
+  margin-top: 0;
+}
+
+
+/* =========================
+   푸터
+========================= */
+
+.footer {
+  margin-top: 20px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  border-top: 1px solid black;
+}
