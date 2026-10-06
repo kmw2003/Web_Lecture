@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+
+
+/* 전체 영역 */
+.wrap {
+  width: 900px;
+  margin: 20px auto;
+}
+
+
+/* 상단 */
+.header {
+  text-align: center;
+  padding: 30px;
+  background: lightblue;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin-bottom: 0;
+}
+
+
+/* 메뉴 */
+.menu {
+  overflow: hidden;
+  background: gray;
+}
+
+.menu-item {
+  float: left;
+  width: 20%;
+  padding: 15px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+/* 본문 전체 */
+.container {
+  overflow: hidden;
+}
+
+
+/* 왼쪽 본문 */
+.main {
+  float: left;
+  width: 70%;
+  min-height: 250px;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+}
+
+
+/* 오른쪽 메뉴 */
+.sidebar {
+  float: right;
+  width: 30%;
+  min-height: 250px;
+
+  padding: 20px;
+
+  background: lightgray;
+
+  box-sizing: border-box;
+}
+
+
+/* 퀵 메뉴 */
+.quick-item {
+  padding: 10px;
+  margin-bottom: 5px;
+
+  background: white;
+  border: 1px solid gray;
+}
+
+
+/* 아래 영역 */
+.footer {
+  padding: 20px;
+
+  text-align: center;
+
+  background: darkgray;
+}
