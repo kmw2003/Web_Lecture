@@ -1,0 +1,218 @@
+
+/* 기본 설정 */
+body {
+    margin: 0;
+    background: #e8edeb;
+    font-family: Arial, "Malgun Gothic", sans-serif;
+    color: #263b38;
+}
+
+
+/* 전체 영역 */
+.wrap {
+    width: 900px;
+    margin: 30px auto;
+    background: white;
+    border: 1px solid #d1ddda;
+    box-shadow: 0 5px 20px #00000015;
+}
+
+
+/* 상단 영역 */
+.header {
+    padding: 40px 35px;
+    text-align: left;
+    background: #193b39;
+    color: white;
+    border-top: 6px solid #d9b76c;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+.header p {
+    margin: 12px 0 0;
+    color: #c1d5ce;
+    font-size: 14px;
+}
+
+
+/* 메뉴 영역 */
+.menu {
+    overflow: hidden;
+    background: #ffffff;
+    border-bottom: 3px solid #d9b76c;
+}
+
+.menu-item {
+    float: left;
+    width: 20%;
+    padding: 17px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #264c46;
+    font-size: 13px;
+    font-weight: bold;
+    border-right: 1px solid #e1e7e4;
+    box-sizing: border-box;
+}
+
+.menu-item:last-child {
+    border-right: none;
+}
+
+.menu-item:hover {
+    background: #e4f0eb;
+    color: #12665c;
+}
+
+
+/* 본문 전체 */
+.container {
+    overflow: hidden;
+    background: #ffffff;
+}
+
+
+/* 왼쪽 프로필 */
+.profile {
+    float: left;
+    width: 23%;
+    min-height: 370px;
+    padding: 25px 20px;
+    background: #eef3ee;
+    box-sizing: border-box;
+}
+
+.profile h3 {
+    margin: 0 0 25px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #92b8aa;
+    color: #24564f;
+    font-size: 18px;
+}
+
+.profile-info p {
+    margin: 8px 0;
+    font-size: 13px;
+    overflow-wrap: anywhere;
+}
+
+.profile-info strong {
+    color: #24695d;
+    border-left: 3px solid #d9b76c;
+    padding-left: 8px;
+}
+
+.profile-info p + p {
+    margin-bottom: 22px;
+}
+
+
+/* 가운데 프로젝트 */
+.projects {
+    float: left;
+    width: 54%;
+    min-height: 370px;
+    padding: 28px;
+    background: white;
+    box-sizing: border-box;
+}
+
+.projects h2 {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #d9b76c;
+    font-size: 23px;
+    color: #193b39;
+}
+
+.description {
+    margin: 18px 0 25px;
+    font-size: 13px;
+    color: #70837c;
+}
+
+
+/* 프로젝트 카드 */
+.project-box {
+    margin-bottom: 18px;
+    padding: 20px;
+    background: #f5f8f6;
+    border: 1px solid #dce6df;
+    border-left: 5px solid #3e8c7f;
+    border-radius: 8px;
+}
+
+.project-box h3 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    color: #215c52;
+}
+
+.project-box p {
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.project-box span {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 6px 10px;
+    font-size: 11px;
+    background: #e2eee7;
+    color: #286d5d;
+    border-radius: 4px;
+}
+
+
+/* 오른쪽 기술 영역 */
+.skills {
+    float: left;
+    width: 23%;
+    min-height: 370px;
+    padding: 25px 18px;
+    background: #284b47;
+    color: white;
+    box-sizing: border-box;
+}
+
+.skills h3 {
+    margin: 0 0 25px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #84b6a5;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+/* 기술 목록 */
+.skill-item {
+    padding: 13px;
+    margin-bottom: 12px;
+    background: #3c625b;
+    border-left: 3px solid #d9b76c;
+    border-radius: 4px;
+    font-size: 13px;
+    color: white;
+}
+
+
+/* 하단 영역 */
+.footer {
+    padding: 20px 30px;
+    text-align: right;
+    background: #f2f4f0;
+    border-top: 1px solid #dce5df;
+    color: #657770;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+}
